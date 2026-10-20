@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+        <div>
+            <label for="fname">first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="spongebob" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="squarepants" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="spongebob@example.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">phone:</label>
+            <input type="text" id="phone" name="phone" placeholder="123-456-7890" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">birth date:</label>
+            <input type="date" id="bdate" name="bdate" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="10" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Mr.</label>
+            <input type="radio" name="gender" value="male" required>
+
+            <label>Mrs.</label>
+            <input type="radio" name="gender" value="female" required>
+
+            <label>PhD.</label>
+            <input type="radio" name="gender" value="female" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>
+                <select id="payment" name="payment" required>
+                    <option value="">payment</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+            </label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="message">message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..." required></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="file">upload file:</label>
+            <input type="file" id="file" name="file" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+        
+    </form>
+    
+</body>
+</html>
